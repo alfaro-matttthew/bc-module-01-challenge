@@ -8,9 +8,9 @@
 </head>
 
 <body>
-    <header><!-- <<< this is semantic code -->
+    <header><!-- <<< formerly a div tag, changed for semantics to define header -->
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <nav><!-- <<< this is semantic code -->
+        <nav><!-- <<< formerly a div tag, changed for semantics to define navigation bar -->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -26,22 +26,22 @@
     </header>
     <div class="hero" alt="professional team working together"></div>
    
-    <article><!-- <<< this is semantic code -->
-        <div class="article-item">
+    <article><!-- <<< formerly a div tag, changed for semantics to define primary content -->
+        <div class="article-item" id="search-engine-optimization"><!-- <<< added an id to connect nav -->
             <img src="./assets/images/search-engine-optimization.jpg" alt="desktop with office supplies and seo notes" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
-        <div class="article-item">
+        <div class="article-item" id="online-reputation-management"><!-- <<< added an id to connect nav -->
             <img src="./assets/images/online-reputation-management.jpg" alt="laptop with spreadsheets of charts titled as reputation" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </div>
-        <div  class="article-item">
+        <div  class="article-item" id="social-media-marketing"> <!-- <<< added an id to connect nav -->
             <img src="./assets/images/social-media-marketing.jpg" alt="a tabletop covered with social media icons" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -50,7 +50,7 @@
         </div>
     </article>
     
-    <aside><!-- <<< this is semantic code -->
+    <aside><!-- <<< formerly a div tag, changed for semantics to define sidebar -->
         <div class="aside-item">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="a gear going through a funnel being turned into money"/>
@@ -73,7 +73,7 @@
             </p>
         </div>
     </aside>
-    <footer><!-- <<< this is semantic code -->
+    <footer><!-- <<< formerly a div tag, changed for semantics to define footer -->
         <h4>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
