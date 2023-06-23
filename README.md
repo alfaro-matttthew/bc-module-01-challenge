@@ -12,6 +12,7 @@ N?A
 
 Link to Live URL:
 
+https://alfaro-matttthew.github.io/bc-module-01-challenge/
 
 Other students and beginner developers can use this code as a reference to see how source code should be organized and kept clean.
 
@@ -20,3 +21,5 @@ Other students and beginner developers can use this code as a reference to see h
 Matthew Alfaro
 
 ## Screenshot
+
+![my screenshot my friends](./assets/images/alfaro-matttthew.github.io_bc-module-01-challenge_.png)
